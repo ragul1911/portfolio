@@ -1,63 +1,114 @@
-import Awwards from "../assets/projects/Awwards.png";
-import alabey from "../assets/projects/alabey.png";
-import portfolio from "../assets/projects/portfolio.png";
+import jarvis from "../assets/projects/jarvis.jpg";
+import appointly from "../assets/projects/appointly.jpg";
+import foodiehub from "../assets/projects/foodiehub.jpg";
 
-export const HERO_CONTENT = `I am a passionate Web developer with a knack for crafting robust and scalable web applications. I have honed my skills in front-end technologies like React and Tailwind CSS. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `I'm a Computer Science Engineering student and aspiring full-stack developer who enjoys building practical applications, solving real-world problems, and learning new technologies. I enjoy working across frontend, backend, databases, and AI-powered applications.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile web developer with a passion for creating efficient and user-friendly web applications. Currently pursuing a Bachelor of Computer Science Engineering in my second year at Dhanalakshmi Srinivasan University, I am developing a strong foundation in technical skills and practical development techniques. My journey in web development began with a deep curiosity for how things work, and it has evolved into a skillset where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions.`;
+export const ABOUT_TEXT = `I'm a Computer Science and Engineering student with a strong interest in full-stack development, backend engineering, and AI. I enjoy understanding how systems work behind the scenes and turning ideas into practical applications.
+
+I have hands-on experience building web applications, REST APIs, database-driven systems, and AI-powered applications. I'm always curious about new technologies and enjoy learning by building real projects.
+
+I believe in writing practical code, solving problems step by step, and continuously improving my skills.`;
+
+export const EDUCATION = [
+  {
+    institution: "Dhanalakshmi Srinivasan University",
+    location: "Trichy, Tamil Nadu",
+    degree: "Bachelor of Technology in Computer Science and Engineering",
+    duration: "2023 – 2027",
+    score: "CGPA: 7.42 / 10.0",
+  },
+];
 
 export const EXPERIENCES = [
   {
-    year: "2024 - Present",
-    role: "Web Developer Intern",
-    company: "CodeSpaze",
-    description: `I developed a comprehensive personal portfolio website to showcase my web development skills and professional journey. The project demonstrates my ability to create a responsive, modern, and visually appealing web application using cutting-edge technologies.`,
-    technologies: ["HTML", "Tailwind CSS","Javascript", "React.js"],
-  },
-  {
-    year: "2024",
-    role: "Web Developer Intern",
+    year: "July 2026 – August 2026",
+    role: "Web Development Intern",
     company: "CodSoft",
-    description: `Created and styled responsive web pages using HTML, CSS, and JavaScript, ensuring cross-browser compatibility and adherence to web standards. Designed layouts that adapt seamlessly across devices, significantly improving the user experience on both mobile and desktop. Collaborated effectively in team projects using Git to manage code versions and maintain code integrity.`,
-    technologies: ["HTML", "CSS", "Javascript"],
-  },
-  {
-    year: "2024",
-    role: "Young Innovator Intern",
-    company: "Scalar",
-    description: `I developed a diverse skill set by creating AI solutions for emerging businesses and building a strong digital presence through effective marketing. I gained experience in no-code website development and designed functional websites while applying sales mastery techniques to enhance customer engagement. Additionally, I created interactive Discord bots to foster community interaction.`,
-    technologies: ["AI", "NoCode Website", "Sales Techniques", "Collab Skill"],
+    location: "Remote",
+    description: `Developed a full-stack food delivery platform using React.js, Node.js, and MongoDB. Built RESTful APIs for authentication, order processing, and dynamic menu management. Optimized MongoDB schema design and indexing strategies for improved query performance. Ensured cross-browser compatibility and responsive mobile-first design.`,
+    technologies: ["React.js", "Node.js", "Express.js", "MongoDB", "REST APIs", "Tailwind CSS"],
   },
 ];
 
 export const PROJECTS = [
   {
-    title: "Awwards Website",
-    image: Awwards,
+    title: "Jarvis – AI-Powered Virtual Assistant",
+    image: jarvis,
     description:
-      "I developed a fully animated, interactive website using cutting-edge frontend technologies to create an engaging and dynamic user experience. The project showcases my expertise in modern web development techniques and advanced animation capabilities.",
-    technologies: ["HTML", "CSS","Tailwind CSS", "React", "GSAP"],
-    link: "https://sharukwebsite.web.app",
+      "Designed a modular AI assistant integrating multiple LLM APIs for conversational reasoning and multimodal input processing. Built backend orchestration, prompt structuring, API routing, response streaming, structured error handling, speech recognition, text-to-speech, PyQt5 desktop interface, Vision AI, and Selenium-based web automation.",
+    technologies: ["Python", "FastAPI", "LLM APIs", "Vision AI", "PyQt5", "Selenium"],
+    link: "https://github.com/ragul1911",
   },
   {
-    title: "Alabey Website",
-    image: alabey,
+    title: "Appointly – Multi-Service Appointment Booking Platform",
+    image: appointly,
     description:
-      " I developed the frontend for the Alabey website, focusing on creating an engaging and user-friendly interface using HTML, CSS, and JavaScript. I implemented responsive design principles to ensure optimal viewing across various devices, enhancing the overall user experience.",
-    technologies: ["HTML", "CSS", "Javascript"],
-    link: "https://alabey-world.netlify.app/",
+      "Developed a web-based appointment booking platform featuring responsive React.js interfaces for service discovery and scheduling. Implemented Express.js REST APIs, MongoDB integration, interactive calendar, daily time-slot management, double-booking prevention, secure authentication, and role-based access control.",
+    technologies: ["React.js", "Node.js", "Express.js", "MongoDB", "JWT Auth"],
+    link: "https://github.com/ragul1911",
   },
   {
-    title: "Portfolio Website",
-    image: portfolio,
+    title: "FoodieHub – Food Delivery Web Application",
+    image: foodiehub,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["Javascript", "React", "Tailwind CSS"],
+      "Created a dynamic food delivery platform featuring restaurant listings, interactive menu browsing, and responsive cart management. Designed customer order APIs, real-time database updates with MongoDB, JWT authentication, and a mobile-first responsive UI.",
+    technologies: ["React.js", "Node.js", "Express.js", "MongoDB", "REST APIs"],
+    link: "https://github.com/ragul1911",
   },
 ];
 
+export const CERTIFICATIONS = [
+  {
+    title: "The Complete Full-Stack Web Development Bootcamp",
+    issuer: "Udemy",
+    category: "Full-Stack Development",
+  },
+  {
+    title: "Front-End Web Development with React",
+    issuer: "Coursera",
+    category: "Frontend & UI",
+  },
+  {
+    title: "Server-side Development with NodeJS, Express and MongoDB",
+    issuer: "Coursera",
+    category: "Backend & Database",
+  },
+  {
+    title: "MongoDB Basics for Developers",
+    issuer: "MongoDB University",
+    category: "Database & Architecture",
+  },
+];
+
+export const EXTRACURRICULARS = [
+  {
+    role: "Class Representative",
+    organization: "Dhanalakshmi Srinivasan University",
+    description: "Coordinated communication between faculty and a cohort of 60+ students.",
+  },
+  {
+    role: "Member, AI & Data Science Club",
+    organization: "Technical Club",
+    description: "Participated in technical workshops and peer mentoring sessions.",
+  },
+  {
+    role: "Event Organizer",
+    organization: "Technical & Cultural Committee",
+    description: "Organized and conducted university-level technical and cultural events.",
+  },
+];
+
+export const SKILLS_DATA = {
+  languages: ["Python", "JavaScript", "SQL (Basic)"],
+  frontend: ["React.js", "PyQt5", "HTML5", "CSS3", "JavaScript", "Bootstrap", "Tailwind CSS"],
+  backend: ["FastAPI", "Node.js", "Express.js", "LLM APIs", "Vision AI", "RESTful APIs"],
+  databaseAndTools: ["MongoDB", "MySQL", "Git", "GitHub", "Postman", "VS Code", "npm"],
+};
+
 export const CONTACT = {
-  address: "Tvs Tollgate, Trichy, Tamilnadu ",
-  phoneNo: "+91-6379764854 ",
-  email: "sharukhansharukhan926@gmail.com",
+  address: "Trichy, Tamil Nadu, India",
+  email: "ragul1911rm@gmail.com",
+  github: "https://github.com/ragul1911",
+  linkedin: "https://linkedin.com/in/ragul-m-0a8ba2331",
 };
